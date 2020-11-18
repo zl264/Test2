@@ -1,0 +1,16 @@
+#server:
+#  port: 8081
+person:
+  lastname: zenglin
+  age: 15
+  boss: false
+  birth: 2000/12/31
+  map: {k1:v1,k2:3}
+  list:
+    - a
+    - b
+  dog:
+    name: 小狗
+    age: 
+
+

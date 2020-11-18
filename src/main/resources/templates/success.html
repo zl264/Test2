@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>成功</title>
+</head>
+<body>
+<h1>成功了!</h1>
+
+<div th:text="${hello}"></div>
+<div th:utext="${hello}"></div>
+<!--th:each标签每次都会生成当前标签-->
+<h4 th:text="${user}" th:each="user:${name}"></h4>
+<h4>
+
+    <span  th:each="user:${name}">[[${user}]]</span>
+</h4>
+</body>
+</html>
